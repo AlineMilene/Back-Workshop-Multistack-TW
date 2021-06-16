@@ -1,14 +1,15 @@
+import json
+
 from django import forms
 from ..models import Diarista
 from ..services import cep_service
-import json
 
 
 class DiaristaForm(forms.ModelForm):
-    # cpf = forms.CharField(widget=forms.TextInput(attrs={'data-mask': "000.000.000-00"}))
-    # cep = forms.CharField(widget=forms.TextInput(attrs={'data-mask': "00000-000"}))
-    # telefone = forms.CharField(widget=forms.TextInput(attrs={'data-mask': "(00) 00000-0000"}))
-    # # codigo_ibge = forms.IntegerField(required=False)
+    cpf = forms.CharField(widget=forms.TextInput(attrs={'data-mask': "000.000.000-00"}))
+    cep = forms.CharField(widget=forms.TextInput(attrs={'data-mask': "00000-000"}))
+    telefone = forms.CharField(widget=forms.TextInput(attrs={'data-mask': "(00) 00000-0000"}))
+    # codigo_ibge = forms.IntegerField(required=False)
 
     class Meta:
         model = Diarista
