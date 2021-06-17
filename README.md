@@ -36,7 +36,7 @@ Este projeto foi desenvolvido pensando em uma Startup fictícia, chamada de E-Di
 
 ## Como executar o projeto
 
-**Pré-requisito: [Python](https://www.python.org/) and IDE [Pycharm](https://www.jetbrains.com/pt-br/pycharm/)**
+**Pré-requisitos: [Python](https://www.python.org/) and IDE [Pycharm](https://www.jetbrains.com/pt-br/pycharm/)**
 
 ```bash
 # clonar repositório
