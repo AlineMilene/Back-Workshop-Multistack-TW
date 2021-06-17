@@ -1,21 +1,21 @@
-# E-Diaristas
+# E-Diaristas - Back-End
+---------------------------------------------------------------------------------------------------------------------------------
+### Neste repositório contém a parte estrutural e funcional da API e painel administrativo back-end.
+**Para acessar o front-end, [clique aqui](https://github.com/AlineMilene/Front-end-Workshop-Multistack-TW)**
 
+---------------------------------------------------------------------------------------------------------------------------------
 ## Sobre o projeto
-
-[Projeto em Construção] 
-
-Link do Projeto: 
 
 E-diaristas é uma aplicação Multi-stack web e mobile construída durante o Workshop **Multi-Stack**, evento organizado pela [TreinaWeb](https://www.treinaweb.com.br/ "Site da TreinaWeb").
 
-Este projeto foi desenvolvido pensando em uma Startup fictícia, chamada de E-Diaristas, na qual foi construída uma plataforma facilitadora para o encontro de Diaristas de confiança que foram cadastradas em nosso sistema. À partir disso, sua pesquisa é feita por enderços selecionavia via CEPs selecionados (no caso WEB) ou Geolocalização (no caso MOBILE).
+Este projeto foi desenvolvido pensando em uma Startup fictícia, chamada de E-Diaristas, na qual foi construída uma plataforma facilitadora para o encontro de Diaristas de confiança que foram cadastradas em nosso sistema. À partir disso, sua pesquisa é feita por endereços selecionado via CEPs (no caso WEB) ou Geolocalização (no caso MOBILE).
 
-### Layout web
-<img height="60%" width="60%" src=https://user-images.githubusercontent.com/54823221/122149026-ca702a80-ce31-11eb-97ee-fa032ca74495.png alt="Picture Home Desktop version">
+### Painel Admin - Cadastrar diarista
+<img height="60%" width="60%" src=https://user-images.githubusercontent.com/54823221/122432729-f55e9980-cf6b-11eb-876f-06bddd39e82f.png alt="Painel Admin - Cadastrar diarista">
 
 
-### Layout mobile
-<img height="20%" width="30%" src=https://user-images.githubusercontent.com/54823221/122149409-66019b00-ce32-11eb-934a-ede72eb0b02c.png alt="Picture Home Mobile version">
+### Painel Admin - Listar diaristas
+<img height="50%" width="80%" src=https://user-images.githubusercontent.com/54823221/122432734-f68fc680-cf6b-11eb-86bf-99267bbc2072.png alt="Painel Admin - Listar diaristas">
 
 
 ## Tecnologias utilizadas
@@ -24,34 +24,31 @@ Este projeto foi desenvolvido pensando em uma Startup fictícia, chamada de E-Di
 - Python
 - Django
 
-
 ### Front end
-- HTML / CSS / JS 
-- TypeScript
-- NextJS
-- ReactJS
-- React Native
+- HTML
 
 ### Bibliotecas
-- Axios
-- Material-UI
-- React Input-Mask
 - Bootstrap CDN
 - Jquery Mask-CDN
 - Jquery CDN
 
 ## Como executar o projeto
 
-**Pré-requisito: [Next.js](https://nextjs.org/)**
+**Pré-requisito: [Python](https://www.python.org/) and IDE [Pycharm](https://www.jetbrains.com/pt-br/pycharm/)**
 
 ```bash
 # clonar repositório
-git clone https://github.com/AlineMilene/workshop-multistack-tw
+git clone https://github.com/AlineMilene/Back-end-Workshop-Multistack-TW
+
+# entrar no repositório ediaristas_workshop
+cd ediaristas_workshop
 
 # executar o projeto
-npm run dev
-# or
-yarn dev
+python managep.py runserver
+
+# acessar via
+http://127.0.0.1:8000/
+
 ```
 
 
